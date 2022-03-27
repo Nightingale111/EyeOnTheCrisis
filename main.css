@@ -144,10 +144,18 @@ h1 span {
     padding-right: 1em;
 }
 
-.column2 .div1 h2 {
+.lvl3 .column2 h2 {
     padding-left: 1em;
 }
 
+.lvl3 .column2 a {
+    padding: 1em;
+    font-style: normal;
+    color: black;
+}
+
+
+/*End of Third Section*/
 .column2 .div1 p {
     padding: 1em;
 }
