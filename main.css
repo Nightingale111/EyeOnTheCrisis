@@ -1,1 +1,154 @@
-/*Styling*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/*Top Section*/
+
+.hero-bg {
+    background: #307d99 url('../images/bg.jpg');
+    background-position: 12% 60%;
+    color: white;
+    text-align: center;
+    padding-bottom: 7em;
+}
+
+header {
+    padding: 1em 0;
+    text-align: left;
+}
+
+.hero-bg a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem; 
+    text-align: left;
+}
+
+section {
+    margin: 0 1.5em;
+    text-align: left;
+}
+
+.hero-bg section {
+    width: 65%;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 2em 0 1.2em;
+}
+
+h1 span {
+    text-transform: uppercase;
+    display: block;
+    font-size: 2rem;
+    position: relative;
+    z-index: 1;
+    margin: 0 0.75em;
+}
+
+
+/*End of Top Section*/
+
+/*Second Section*/
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .lvl2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.lvl2 {
+    margin-top: -6em;
+}
+
+.column h2 {
+    margin-bottom: 1.5em;
+}
+
+.column h2::before {
+    content: ' ';
+    position: absolute;
+    width: 3.2em;
+    background: #00bfff;
+    height: .3em;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -.2em;
+    margin-bottom: 3.3em;
+}
+
+.column p {
+    color: grey;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.column p span {
+    display: block;
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+    position: relative;
+    color: #36454F;
+}
+
+.column a {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 0.7rem; 
+    color: grey;
+}
+
+/*End of Second Section*/
+
+
+/*Third Section*/
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+  
+/* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* */
+
+
+  .lvl3 {
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.column2 a {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 0.7rem; 
+    color: grey;
+}
+
+.column2 p {
+    padding-right: 1em;
+}
+
+.column2 .div1 h2 {
+    padding-left: 1em;
+}
+
+.column2 .div1 p {
+    padding: 1em;
+}
+/*End of Third Section*/
