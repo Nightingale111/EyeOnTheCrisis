@@ -156,7 +156,24 @@ h1 span {
 
 
 /*End of Third Section*/
-.column2 .div1 p {
-    padding: 1em;
+
+/*Animation --> Text Fade-In*/
+
+.top {
+    animation: fadeIn 2s forwards;
 }
-/*End of Third Section*/
+
+.column {
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
