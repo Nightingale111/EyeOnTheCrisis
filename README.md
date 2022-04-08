@@ -1,2 +1,2 @@
 # EyeOnTheCrisis
-Informational Website Focused on the Ukraine Crisis - Cypher VII Hackathon
+Informational website focused on the Ukraine Crisis - Cypher VII Hackathon
